@@ -1679,6 +1679,15 @@
     ionicons "7.1.0"
     tslib "^2.1.0"
 
+"@ionic/core@7.8.6":
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-7.8.6.tgz#523f5a3d0fd52c9560213a32719af06fe3f6d769"
+  integrity sha512-HAYZdEmeJgOdo2kDlZkcCGHb+zs/vjU6iv4skbVBL7y+OnSv/oC2u83Yee8S3/aY0YAxkyBgu7hLTYH13Zc2Aw==
+  dependencies:
+    "@stencil/core" "^4.12.2"
+    ionicons "^7.2.2"
+    tslib "^2.1.0"
+
 "@ionic/vue-router@^7.4.3":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@ionic/vue-router/-/vue-router-7.4.3.tgz#35d4448c379ae1ffdb92fa51a84c812cd4d36834"
@@ -1686,12 +1695,20 @@
   dependencies:
     "@ionic/vue" "7.4.3"
 
-"@ionic/vue@7.4.3", "@ionic/vue@^7.4.3":
+"@ionic/vue@7.4.3":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@ionic/vue/-/vue-7.4.3.tgz#86b62e2eee6f11c17e011cfd1fdf1dd1f4f5e813"
   integrity sha512-DV/SExC/e3rcLoowuYb5bwo4N/oP5fWHQo1xLP654I/879hlwPJlCxdWFtaE2OlT3aEix9ssLYeNiWaxuK+9dQ==
   dependencies:
     "@ionic/core" "7.4.3"
+    ionicons "^7.0.0"
+
+"@ionic/vue@^7.8.6":
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@ionic/vue/-/vue-7.8.6.tgz#e368ad8cefd1888f3eb8ce5fe6992bb685f2a0a6"
+  integrity sha512-WVngbTA08SlVbyj4rS9krVJ2Z9Uv/MG1xItDS7WqMPeVwRNGaOiw6MkxjXRcpIz6qE0b+6EjIcte5h4nGRiDCw==
+  dependencies:
+    "@ionic/core" "7.8.6"
     ionicons "^7.0.0"
 
 "@isaacs/cliui@^8.0.2":
@@ -2006,10 +2023,20 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.37.0.tgz#6edc6ffc8af8773e4bc28c72894dd5e846b8ee6c"
   integrity sha512-6U3SlVyMxezt8Y+/iEBcbp945uZjJwjZimu76xoG7tO1av9VO691z8PkhzQ85ith2I8R2RddEPeSfcbyPfD4hA==
 
+"@rollup/rollup-darwin-arm64@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.34.9.tgz#363467bc49fd0b1e17075798ac8e9ad1e1e29535"
+  integrity sha512-0CY3/K54slrzLDjOA7TOjN1NuLKERBgk9nY5V34mhmuu673YNb+7ghaDUs6N0ujXR7fz5XaS5Aa6d2TNxZd0OQ==
+
 "@rollup/rollup-darwin-arm64@4.37.0":
   version "4.37.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.37.0.tgz#737a7b8be9ff79bd24a7efaae0903e8c66ac0676"
   integrity sha512-+iTQ5YHuGmPt10NTzEyMPbayiNTcOZDWsbxZYR1ZnmLnZxG17ivrPSWFO9j6GalY0+gV3Jtwrrs12DBscxnlYA==
+
+"@rollup/rollup-darwin-x64@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.34.9.tgz#c2fe3d85fffe47f0ed0f076b3563ada22c8af19c"
+  integrity sha512-eOojSEAi/acnsJVYRxnMkPFqcxSMFfrw7r2iD9Q32SGkb/Q9FpUY1UlAu1DH9T7j++gZ0lHjnm4OyH2vCI7l7Q==
 
 "@rollup/rollup-darwin-x64@4.37.0":
   version "4.37.0"
@@ -2036,10 +2063,20 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.37.0.tgz#00cddb9ab51086c5f2cd33cd4738259e24be4e73"
   integrity sha512-jUb/kmn/Gd8epbHKEqkRAxq5c2EwRt0DqhSGWjPFxLeFvldFdHQs/n8lQ9x85oAeVb6bHcS8irhTJX2FCOd8Ag==
 
+"@rollup/rollup-linux-arm64-gnu@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.34.9.tgz#1015c9d07a99005025d13b8622b7600029d0b52f"
+  integrity sha512-6TZjPHjKZUQKmVKMUowF3ewHxctrRR09eYyvT5eFv8w/fXarEra83A2mHTVJLA5xU91aCNOUnM+DWFMSbQ0Nxw==
+
 "@rollup/rollup-linux-arm64-gnu@4.37.0":
   version "4.37.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.37.0.tgz#c3b4324496236b6fd9f31fda5701c6d6060b1512"
   integrity sha512-oNrJxcQT9IcbcmKlkF+Yz2tmOxZgG9D9GRq+1OE6XCQwCVwxixYAa38Z8qqPzQvzt1FCfmrHX03E0pWoXm1DqA==
+
+"@rollup/rollup-linux-arm64-musl@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.34.9.tgz#8f895eb5577748fc75af21beae32439626e0a14c"
+  integrity sha512-LD2fytxZJZ6xzOKnMbIpgzFOuIKlxVOpiMAXawsAZ2mHBPEYOnLRK5TTEsID6z4eM23DuO88X0Tq1mErHMVq0A==
 
 "@rollup/rollup-linux-arm64-musl@4.37.0":
   version "4.37.0"
@@ -2071,15 +2108,30 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.37.0.tgz#6b0b7df33eb32b0ee7423898b183acc1b5fee33e"
   integrity sha512-hZDDU5fgWvDdHFuExN1gBOhCuzo/8TMpidfOR+1cPZJflcEzXdCy1LjnklQdW8/Et9sryOPJAKAQRw8Jq7Tg+A==
 
+"@rollup/rollup-linux-x64-gnu@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.9.tgz#7193cbd8d128212b8acda37e01b39d9e96259ef8"
+  integrity sha512-FwBHNSOjUTQLP4MG7y6rR6qbGw4MFeQnIBrMe161QGaQoBQLqSUEKlHIiVgF3g/mb3lxlxzJOpIBhaP+C+KP2A==
+
 "@rollup/rollup-linux-x64-gnu@4.37.0":
   version "4.37.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.37.0.tgz#52c27717d3c4819d13b5ebc2373ddea099d2e71b"
   integrity sha512-pKivGpgJM5g8dwj0ywBwe/HeVAUSuVVJhUTa/URXjxvoyTT/AxsLTAbkHkDHG7qQxLoW2s3apEIl26uUe08LVQ==
 
+"@rollup/rollup-linux-x64-musl@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.34.9.tgz#29a6867278ca0420b891574cfab98ecad70c59d1"
+  integrity sha512-cYRpV4650z2I3/s6+5/LONkjIz8MBeqrk+vPXV10ORBnshpn8S32bPqQ2Utv39jCiDcO2eJTuSlPXpnvmaIgRA==
+
 "@rollup/rollup-linux-x64-musl@4.37.0":
   version "4.37.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.37.0.tgz#c134a22d30642345de8b799c816345674bf68019"
   integrity sha512-E2lPrLKE8sQbY/2bEkVTGDEk4/49UYRVWgj90MY8yPjpnGBQ+Xi1Qnr7b7UIWw1NOggdFQFOLZ8+5CzCiz143w==
+
+"@rollup/rollup-win32-arm64-msvc@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.34.9.tgz#89427dcac0c8e3a6d32b13a03a296a275d0de9a9"
+  integrity sha512-z4mQK9dAN6byRA/vsSgQiPeuO63wdiDxZ9yg9iyX2QTzKuQM7T4xlBoeUP/J8uiFkqxkcWndWi+W7bXdPbt27Q==
 
 "@rollup/rollup-win32-arm64-msvc@4.37.0":
   version "4.37.0"
@@ -2090,6 +2142,11 @@
   version "4.37.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.37.0.tgz#891d90e3b5517f9d290bb416afdfe2ebfb12139e"
   integrity sha512-e3/1SFm1OjefWICB2Ucstg2dxYDkDTZGDYgwufcbsxTHyqQps1UQf33dFEChBNmeSsTOyrjw2JJq0zbG5GF6RA==
+
+"@rollup/rollup-win32-x64-msvc@4.34.9":
+  version "4.34.9"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.9.tgz#1973871850856ae72bc678aeb066ab952330e923"
+  integrity sha512-AyleYRPU7+rgkMWbEh71fQlrzRfeP6SyMnRf9XX4fCdDPAJumdSBqYEcWPMzVQ4ScAl7E4oFfK0GUVn77xSwbw==
 
 "@rollup/rollup-win32-x64-msvc@4.37.0":
   version "4.37.0"
@@ -2105,6 +2162,20 @@
   version "2.22.3"
   resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.22.3.tgz#83987e20bba855c450f6d6780e3a20192603f13f"
   integrity sha512-kmVA0M/HojwsfkeHsifvHVIYe4l5tin7J5+DLgtl8h6WWfiMClND5K3ifCXXI2ETDNKiEk21p6jql3Fx9o2rng==
+
+"@stencil/core@^4.0.3", "@stencil/core@^4.12.2":
+  version "4.36.2"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.36.2.tgz#b43cba342c5c5ceba7c09463fdba7edff792496e"
+  integrity sha512-PRFSpxNzX9Oi0Wfh02asztN9Sgev/MacfZwmd+VVyE6ZxW+a/kEpAYZhzGAmE+/aKVOGYuug7R9SulanYGxiDQ==
+  optionalDependencies:
+    "@rollup/rollup-darwin-arm64" "4.34.9"
+    "@rollup/rollup-darwin-x64" "4.34.9"
+    "@rollup/rollup-linux-arm64-gnu" "4.34.9"
+    "@rollup/rollup-linux-arm64-musl" "4.34.9"
+    "@rollup/rollup-linux-x64-gnu" "4.34.9"
+    "@rollup/rollup-linux-x64-musl" "4.34.9"
+    "@rollup/rollup-win32-arm64-msvc" "4.34.9"
+    "@rollup/rollup-win32-x64-msvc" "4.34.9"
 
 "@stencil/core@^4.4.0":
   version "4.4.1"
@@ -3874,6 +3945,13 @@ ionicons@7.1.0, ionicons@^7.0.0:
   integrity sha512-iE4GuEdEHARJpp0sWL7WJZCzNCf5VxpNRhAjW0fLnZPnNL5qZOJUcfup2Z2Ty7Jk8Q5hacrHfGEB1lCwOdXqGg==
   dependencies:
     "@stencil/core" "^2.18.0"
+
+ionicons@^7.2.2:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-7.4.0.tgz#9c285aaa8089befbd6c5a89ae13292d364cd9ace"
+  integrity sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==
+  dependencies:
+    "@stencil/core" "^4.0.3"
 
 is-array-buffer@^3.0.1, is-array-buffer@^3.0.2:
   version "3.0.2"
